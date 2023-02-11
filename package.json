@@ -1,0 +1,24 @@
+{
+  "name": "cronjobs",
+  "version": "1.0.0",
+  "description": "Hint:You Will have to Self Explore cron jobs in Nodejs,For this Assignment\r Build a scheduler in JS with NodeJS framework and a script to run it for 10 events.\r The event will consist of a text (string) and a date time at which it will run.\r The scheduler must schedule the event to trigger a function at the date time mentioned in the event body.\r The trigger function (API) must accept the text as input, sleep for the duration of text length and return text backwards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharJain128/cronJobs.git"
+  },
+  "author": "Tushar Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TusharJain128/cronJobs/issues"
+  },
+  "homepage": "https://github.com/TusharJain128/cronJobs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "node-cron": "^3.0.2"
+  }
+}
